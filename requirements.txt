@@ -1,0 +1,11 @@
+streamlit
+ollama
+langdetect
+emoji
+transformers
+SpeechRecognition
+pyaudio
+pyttsx3
+Pillow
+websocket-client
+requests
