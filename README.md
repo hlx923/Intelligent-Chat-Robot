@@ -90,6 +90,9 @@ streamlit run app.py
 ```
 应用将在浏览器中自动打开，默认地址为： http://localhost:8501
 
+## 示例图
+![image](https://github.com/user-attachments/assets/d86a8a24-821c-43a1-aa70-9961073addb8)
+
 ## 💡 使用技巧
 - 模型选择 ：可以在侧边栏选择自动或手动模式来控制使用的AI模型
 - 语音交互 ：点击"语音输入"按钮开始语音识别
