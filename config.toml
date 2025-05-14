@@ -1,0 +1,4 @@
+[server]
+enableCORS = false
+enableXsrfProtection = false
+runOnSave = true
