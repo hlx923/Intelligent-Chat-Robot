@@ -1,0 +1,2 @@
+# Intelligent-Chat-Robot
+参与2025年传智杯的人工智能大模型创新应用挑战赛获得一等奖（国家级），使用Ollama客户端调用本地大语言模型（如qwen2、deepseek-r1）两种AI，集成科大讯飞API和Google语音识别，支持上传图片并进行分析，使用transformers库分析用户情感并给予相应回应，使用langdetect检测语言，支持中文、英文等
