@@ -76,7 +76,7 @@ pip install -r requirements.txt
 ollama serve
 ```
 
-# 拉取所需模型
+##拉取所需模型
 ollama pull qwen2
 ollama pull deepseek-r1
 
@@ -86,7 +86,7 @@ APPID = '您的APPID'
 API_KEY = '您的API_KEY'
 API_SECRET = '您的API_SECRET'
 
-### 运行应用
+### 运行应用
 ```bash
 streamlit run app.py
 ```
