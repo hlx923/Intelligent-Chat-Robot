@@ -62,14 +62,19 @@
 ```bash
 git clone https://github.com/your-username/zhichat-bot.git
 cd zhichat-bot
+```
 
 2. 安装依赖包
+```bash
 pip install -r requirements.txt
+```
 
 3.安装并启动Ollama服务
+```bash
 # 安装Ollama（根据操作系统选择合适的安装方法）
 # 启动Ollama服务
 ollama serve
+```
 
 # 拉取所需模型
 ollama pull qwen2
@@ -77,15 +82,14 @@ ollama pull deepseek-r1
 
 4. 配置科大讯飞API
 编辑 xunfei_config.py 文件，填入您的科大讯飞API密钥：
-
 APPID = '您的APPID'
 API_KEY = '您的API_KEY'
 API_SECRET = '您的API_SECRET'
 
 ### 运行应用
-
+```bash
 streamlit run app.py
-
+```
 应用将在浏览器中自动打开，默认地址为： http://localhost:8501
 
 ## 💡 使用技巧
@@ -94,6 +98,7 @@ streamlit run app.py
 - 图片分析 ：通过上传图片功能可以让AI分析图像内容
 - 参数调整 ：在侧边栏可以调整模型的温度和采样阈值等参数
 - 多语言支持 ：可以在侧边栏切换界面语言
+
 ## 🏆 获奖情况
 本项目在传智杯人工智能大模型创新应用挑战赛中荣获 国家一等奖 ，评委对项目的创新性、技术实现和实用价值给予了高度评价。
 
@@ -101,9 +106,9 @@ streamlit run app.py
 MIT License
 
 ## 👥 贡献者
-- 您的名字
+- 许语梦
 ## 📞 联系方式
 如有任何问题或建议，请通过以下方式联系我们：
 
-- 邮箱： your-email@example.com
+- 邮箱： 2332257041@qq.com
 - GitHub Issues： 提交问题
