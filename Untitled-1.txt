@@ -1,7 +1,0 @@
-project_root/
-├── app.py
-├── utils.py
-├── requirements.txt
-└── docs/
-    ├── README.md
-    └── ...
