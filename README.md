@@ -1,7 +1,6 @@
 # Intelligent-Chat-Robot
 
 <div align="center">
-  <img src="https://placeholder-for-logo.com/logo.png" alt="智聊机器人Logo" width="200">
   <p><strong>基于大语言模型的多模态智能聊天助手</strong></p>
   <p>🏆 传智杯人工智能大模型创新应用挑战赛 国家一等奖 🏆</p>
 </div>
