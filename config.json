@@ -1,0 +1,32 @@
+{
+    "models": {
+        "qwen2": {
+            "api_key": "your_qwen2_api_key",
+            "endpoint": "https://api.example.com/qwen2",
+            "model_name": "qwen2-turbo"
+        },
+        "gpt3.5": {
+            "api_key": "your_openai_api_key",
+            "endpoint": "https://api.openai.com/v1/chat/completions",
+            "model_name": "gpt-3.5-turbo"
+        },
+        "llama3": {
+            "api_key": "your_llama3_api_key",
+            "endpoint": "https://api.example.com/llama3",
+            "model_name": "llama-3-chat"
+        }
+    },
+    "connection_settings": {
+        "max_retries": 3,
+        "base_delay": 2,
+        "max_delay": 30,
+        "timeout": 30,
+        "keep_alive": true,
+        "verify_ssl": true
+    },
+    "error_handling": {
+        "log_errors": true,
+        "error_log_path": "error.log",
+        "notify_on_error": false
+    }
+}
